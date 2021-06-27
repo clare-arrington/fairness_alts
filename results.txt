@@ -1,0 +1,103 @@
+Orig Action
+
+                                  0            1
+Precision                 0.6178161    0.6823401
+Predictive Rate Parity    1.0000000    1.1044388
+Group size             2103.0000000 3175.0000000
+
+Fairness: 0.0642
+
+Jail Time
+White: 10.87
+Black: 11.64
+
+All: 11.34
+IQR: 12.03
+SD: 12.35
+
+Var(Y): 145.75
+IF: 0.79
+
+E[Y^ro]: 7.43
+IF: 3.48
+
+B/n group: 0.78
+IF: 194.32
+
+=============================
+
+Affirm Action 
+
+                                 0            1
+Precision                 0.571885    0.7151394
+Predictive Rate Parity    1.000000    1.2504952
+Group size             2103.000000 3175.0000000
+
+0.143
+
+Jail Time
+White: 10.23
+Black: 10.57
+
+All: 10.43
+IQR: 8.30
+SD: 6.11
+
+Var(Y): 143.57
+IF: 6.36
+
+E[Y^ro]: 7.42
+IF: 3.05
+
+B/n group: 0.34
+IF: 178.26
+
+=============================
+
+Perfect Predictive
+
+                                0    1
+Precision                 1    1
+Predictive Rate Parity    1    1
+Group size             2103 3175
+
+
+
+Jail Time
+White: 4.50
+Black: 3.86
+
+All: 4.25
+IQR: 5.89
+SD: 5.33
+
+Var(Y): 146.70
+IF: 44.92
+
+E[Y^ro]: 7.41
+IF: 1.19
+
+B/n group: 0.64
+IF: 103.03
+
+=============================
+
+Jail Time
+Black: 17.82308
+White: 12.27517
+
+All
+ estimate   std.err 
+12.563666  1.719572 
+
+Treated
+estimate  std.err 
+15.51505  1.90921 
+
+Control
+estimate  std.err 
+9.886209 2.073461 
+
+Overlap
+ estimate   std.err 
+11.166559  1.662469 
